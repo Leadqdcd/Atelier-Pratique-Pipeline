@@ -1,20 +1,30 @@
 pipeline {
     agent any
+    
+    tools {
+        nodejs 'nodejs'
+    }
 
     stages {
         stage('Install') {
             steps {
-                sh 'npm install'
+                dir('atelier-pratique-pipeline') {
+                    sh 'npm install'
+                }
             }
         }
         stage('Build') {
             steps {
-                sh 'npm run build'
+                dir('atelier-pratique-pipeline') {
+                    sh 'npm run build'
+                }
             }
         }
         stage('Deploy') {
             steps {
-                sh 'git push heroku main'
+                dir('atelier-pratique-pipeline') {
+                    sh 'git push heroku main'
+                }
             }
         }
     }
