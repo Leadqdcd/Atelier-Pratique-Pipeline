@@ -20,12 +20,5 @@ pipeline {
                 }
             }
         }
-        stage('Deploy') {
-            steps {
-                dir('atelier-pratique-pipeline') {
-                    sh 'git push heroku main'
-                }
-            }
-        }
     }
 }
