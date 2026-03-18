@@ -20,7 +20,7 @@ export default function Home() {
           Nous construisons des <em style={{ color: "#1D9E75" }}>pipelines</em><br />qui passent à l&apos;échelle.
         </h1>
         <p style={{ fontSize: "1.1rem", color: "#5F5E5A", maxWidth: 520, margin: "0 auto", lineHeight: 1.7 }}>
-          Futures expertes en ingénierie des données.
+          Futures expertes en ingénierie des données. 
         </p>
       </section>
 
@@ -30,8 +30,8 @@ export default function Home() {
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: 12 }}>
           {[
             ["🔁","ETL & Pipelines","Conception et automatisation de flux de données de bout en bout"],
-            ["☁️","Cloud & Azure","Déploiement d'infrastructures de données scalables sur le cloud"],
-            ["⚡","Spark & Kafka","Traitement temps réel et batch avec des moteurs distribués"],
+            ["☁️","Cloud","Déploiement d'infrastructures de données scalables sur le cloud"],
+            ["⚡","Spark","Traitement temps réel et batch avec des moteurs distribués"],
             ["🗄️","Bases de données","Cassandra, PostgreSQL, MongoDB, Elasticsearch"],
             ["📊","Visualisation","Tableaux de bord Kibana, Grafana et Power BI"],
             ["🐳","DevOps & CI/CD","Docker, Airflow, automatisation de pipelines Jenkins"],
