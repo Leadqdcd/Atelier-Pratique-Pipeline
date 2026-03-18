@@ -5,7 +5,7 @@ export default function Home() {
       {/* Hero */}
       <section style={{ padding: "5rem 2rem 4rem", textAlign: "center", borderBottom: "0.5px solid rgba(0,0,0,0.1)" }}>
         <span style={{ display: "inline-block", background: "#E1F5EE", color: "#0F6E56", fontSize: "12px", fontWeight: 500, padding: "4px 14px", borderRadius: "20px", marginBottom: "1.5rem" }}>
-          Portfolio — Ingénierie des Données
+          Portfolio — Expert en Ingénierie des Données
         </span>
         <div style={{ display: "flex", justifyContent: "center", marginBottom: "0.75rem" }}>
           {[["LQ","#E1F5EE","#0F6E56"],["NF","#EEEDFE","#3C3489"],["NK","#FAECE7","#993C1D"]].map(([label, bg, color], i) => (
