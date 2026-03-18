@@ -20,7 +20,7 @@ export default function Home() {
           Nous construisons des <em style={{ color: "#1D9E75" }}>pipelines</em><br />qui passent à l&apos;échelle.
         </h1>
         <p style={{ fontSize: "1.1rem", color: "#5F5E5A", maxWidth: 520, margin: "0 auto", lineHeight: 1.7 }}>
-          Futures expertes en ingénierie des données, spécialisées en architecture ETL, systèmes distribués et plateformes de données cloud.
+          Futures expertes en ingénierie des données.
         </p>
       </section>
 
